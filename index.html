@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="../../Documents/Unnamed Site 2/style.css" rel="stylesheet" type="text/css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<body>
+	   <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/download (1).png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="discography.html">DISCOGRAPHY</a></li>
+					<li><a href="tours.html">TOURS</a></li>
+					<li><a href="members.html">MEMBERS</a> 
+						<div class="submenu">
+					         <ul> 
+								 <li> <a href="niall.html"> NIALL</a> </li>
+							   	<li> <a href="harry.html"> HARRY</a> </li>
+								 <li> <a href="liam.html"> LIAM</a> </li>
+								 <li> <a href="louis.html"> LOUIS</a> </li>
+								 <li> <a href="zayn.html"> ZAYN</a> </li>
+								 
+						
+						</ul>
+						</div></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>ONE DIRECTION</h1>
+            <p>Here you will find all your need to know info on One Direction. </p>
+            <a href="about.html" class="hero-btn"> Learn More here</a>
+        </div>
+    </section>
+	
+	<section class="course">
+        <h1>Need To Know </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Gallery</h3>
+                <p> <a href="gallery.html"> <img src="images/1d.jpeg"></a></p>
+            </div>
+            <div class="course-col">
+                <h3>Tours</h3>
+                <p><a href="tours.html"><img src="images/awards3.jpeg"></a></p>
+            </div>
+            <div class="course-col">
+                <h3> Discography</h3>
+                <p><a href="discography.html"> <img src="images/discography.jpeg"></a></p>
+            </div>
+        </div>
+    </section>
+	
+	<section class="cta">
+    
+       <h1>Any questiona or suggestion?<br> feel free to let us know!</h1>
+        <a href="contact.html" class="hero-btn"> CONTACT US</a>
+    
+</section>   
+	
+	
+	<section class="footer">
+       
+        <p>Sophie Graham Web Design 2 Repeat Assignment</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/onedirectionmusic"><i class="fa fa-facebook"></i></a>
+            <a href=" https://twitter.com/onedirection"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/onedirection/?hl=en "><i class="fa fa-instagram"></i></a>
+        
+            
+        </div>
+       
+</section>    
+	
+	<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+	
+	
+</body>
+</html>
